@@ -27,7 +27,7 @@ export function CitySection() {
 
             <div className="city__copy">
                 <p className="eyebrow">The game</p>
-                <h2 id="city-title">Open-world London. Underworld rules.</h2>
+                <h2 id="city-title">Open-world Lundun. Underworld rules.</h2>
                 <p className="city__lede">
                     Lundun After Dark is an open-world crime game set in a London that never quite sleeps. Run jobs, earn rewards,
                     and find out who really runs the city after dark.
