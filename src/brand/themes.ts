@@ -23,7 +23,7 @@ export const BRANDS: Record<BrandId, Brand> = {
     id: 'fog',
     label: 'B · Fog',
     idea: 'Thin, quiet, expensive. The U’s turn upside down: the under-world.',
-    tagline: 'Some of it you can see. Most of it, you can’t.',
+    tagline: 'Open-world crime game set in a London that never quite sleeps.',
     kicker: 'Coming end of 2026',
     rain: 40,
   },
