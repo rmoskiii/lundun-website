@@ -42,7 +42,7 @@
   --map-line: rgba(220, 215, 228, 0.08);
   --river: #2a2a3a;
   --river-glint: rgba(227, 176, 114, 0.3);
-  --display: 'Cormorant Garamond', 'Georgia', serif;
+  --display: 'JetBrains Mono', ui-monospace, monospace;
   --body: 'JetBrains Mono', ui-monospace, monospace;
   --radius: 999px;
   --skyline-mid: #1a1922;
@@ -232,9 +232,7 @@ input {
   font-size: 0.95rem;
 }
 :root[data-brand='fog'] .hero__tag {
-  font-family: 'Cormorant Garamond', serif;
-  font-style: italic;
-  font-size: 1.35rem;
+  font-size: 1rem;
   color: var(--ink);
   opacity: 0.75;
 }
@@ -364,9 +362,9 @@ input {
 .logo--underground .logo__ch { position: relative; z-index: 1; }
 .logo--underground .logo__sub { color: var(--accent); }
 
-/* B: Fog, light serif, U's flipped */
+/* B: Fog, one font throughout (JetBrains Mono) */
 .logo--fog .logo__word {
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 0;
   font-size: clamp(3.4rem, 13vw, 8rem);
   text-shadow: 0 0 0.6em rgba(220, 215, 228, 0.25);
@@ -378,12 +376,10 @@ input {
   opacity: 0.9;
 }
 .logo--fog .logo__sub {
-  font-family: 'Cormorant Garamond', serif;
-  font-style: italic;
   text-transform: none;
-  letter-spacing: 0.12em;
-  margin-right: 0;
-  font-size: clamp(1.1rem, 2.4vw, 1.5rem);
+  letter-spacing: 0.3em;
+  margin-right: -0.3em;
+  font-size: clamp(0.85rem, 1.8vw, 1.1rem);
   color: var(--ink);
   opacity: 0.6;
 }
@@ -538,7 +534,6 @@ input {
   font-size: clamp(1.9rem, 4.2vw, 3rem);
   line-height: 1.05;
 }
-:root[data-brand='fog'] .city__copy h2 { font-weight: 300; }
 .city__lede {
   margin: 1rem 0 1.6rem;
   max-width: 46ch;
@@ -646,7 +641,7 @@ input {
   padding: 0.45rem 0.9rem;
   background: transparent;
   color: #bbb;
-  font-family: 'JetBrains Mono', monospace;
+  font-family: var(--body);
   font-size: 0.7rem;
   cursor: pointer;
   white-space: nowrap;
