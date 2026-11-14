@@ -1,10 +1,3 @@
-const FEATURES: { title: string; text: string }[] = [
-    { title: 'Jobs that pay', text: 'Take missions across the city. Every job finished means cash and rewards.' },
-    { title: 'Free roam', text: 'No story, no rules. Just you, the city and whatever you can get away with.' },
-    { title: 'Turf', text: 'Gang territory shows up on your map as you find it. Cross the line at your own risk.' },
-    { title: 'Get around', text: 'Cars, bikes, the Underground, and GPS to anywhere in Lundun.' },
-];
-
 function goToSignup() {
     const input = document.getElementById('join-email');
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -32,15 +25,6 @@ export function CitySection() {
                     Lundun After Dark is an open-world crime game set in a London that never quite sleeps. Run jobs, earn rewards,
                     and find out who really runs the city after dark.
                 </p>
-
-                <ul className="city__features">
-                    {FEATURES.map((f) => (
-                        <li key={f.title}>
-                            <h3>{f.title}</h3>
-                            <p>{f.text}</p>
-                        </li>
-                    ))}
-                </ul>
 
                 <div className="city__foot">
                     <button type="button" className="city__cta" onClick={goToSignup}>
