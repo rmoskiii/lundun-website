@@ -16,7 +16,7 @@ export const BRANDS: Record<BrandId, Brand> = {
     label: 'A · Underground',
     idea: 'The two U’s sink below street level. Sodium orange on wet black.',
     tagline: 'After dark, the city goes under.',
-    kicker: 'Signal incoming · End of 2026',
+    kicker: 'Signal incoming · Coming soon',
     rain: 140,
   },
   fog: {
@@ -24,7 +24,7 @@ export const BRANDS: Record<BrandId, Brand> = {
     label: 'B · Fog',
     idea: 'Thin, quiet, expensive. The U’s turn upside down: the under-world.',
     tagline: 'Open-world crime game set in a London that never quite sleeps.',
-    kicker: 'Coming end of 2026',
+    kicker: 'Coming soon',
     rain: 40,
   },
   nightbus: {
@@ -32,7 +32,7 @@ export const BRANDS: Record<BrandId, Brand> = {
     label: 'C · Night Bus',
     idea: 'Loud, blocky, CCTV. The U’s are cut out of red, like a warning.',
     tagline: 'Last bus left an hour ago.',
-    kicker: 'REC · End of 2026',
+    kicker: 'REC · Coming soon',
     rain: 220,
   },
 };
