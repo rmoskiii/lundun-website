@@ -370,7 +370,7 @@ input {
   text-shadow: 0 0 0.6em rgba(220, 215, 228, 0.25);
 }
 .logo--fog.logo--small .logo__word { font-size: 1.6rem; }
-.logo--fog .logo__ch { display: inline-block; margin: 0 0.1em; }
+.logo--fog .logo__ch { display: inline-block; margin: 0 -0.03em; }
 .logo--fog .logo__u {
   color: var(--accent);
   opacity: 0.9;
