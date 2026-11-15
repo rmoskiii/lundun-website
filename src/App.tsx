@@ -6,6 +6,7 @@ import { Skyline } from './components/Skyline';
 import { Waitlist } from './components/Waitlist';
 import { CitySection } from './components/CitySection';
 import { BrandSwitcher } from './components/BrandSwitcher';
+import { FooterShare } from './components/FooterShare';
 
 const SHOW_SWITCHER = (import.meta.env.VITE_SHOW_BRAND_SWITCHER ?? 'false') === 'true';
 
@@ -56,8 +57,7 @@ export default function App() {
         <footer className="footer">
           <Logo brand={brandId} size="small" />
           <nav>
-            <a href="https://www.tiktok.com/" rel="noopener">TikTok</a>
-            <a href="https://www.instagram.com/" rel="noopener">Instagram</a>
+            <FooterShare />
             <a href="/privacy.html">Privacy</a>
           </nav>
           <p className="footer__small">© {new Date().getFullYear()} Infinity Oryn Ltd. A work of fiction. Any resemblance is the point.</p>

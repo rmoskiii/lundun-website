@@ -490,6 +490,25 @@ input {
   color: var(--accent);
 }
 .waitlist__small { margin: 0.4rem 0 0; font-size: 0.8rem; color: var(--muted); }
+
+/* ---- share after signup ---- */
+.share { margin-top: 1.4rem; padding-top: 1.2rem; border-top: 1px solid var(--line, rgba(255, 255, 255, 0.12)); }
+.share__title { margin: 0 0 0.8rem; font-size: 0.85rem; color: var(--ink); opacity: 0.85; }
+.share__row { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5rem; }
+.share__btn {
+  font: inherit;
+  font-size: 0.8rem;
+  padding: 0.6rem 1.1rem;
+  border-radius: 999px;
+  border: 1px solid var(--accent);
+  background: transparent;
+  color: var(--accent);
+  text-decoration: none;
+  cursor: pointer;
+}
+.share__btn:hover { background: rgba(255, 255, 255, 0.06); }
+.share__btn--main { background: var(--accent); color: var(--accent-ink); }
+.share__btn--main:hover { filter: brightness(1.12); background: var(--accent); }
 .hp { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
 @media (max-width: 480px) {
   .waitlist__row { flex-direction: column; border-radius: min(var(--radius), 14px); }
@@ -618,6 +637,15 @@ input {
 .footer nav { display: flex; gap: 1.4rem; font-size: 0.78rem; }
 .footer nav a { text-decoration: none; color: var(--muted); }
 .footer nav a:hover { color: var(--ink); }
+.footer__share {
+  font: inherit;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--muted);
+  cursor: pointer;
+}
+.footer__share:hover { color: var(--ink); }
 .footer__small { width: 100%; margin: 0; font-size: 0.7rem; color: var(--muted); }
 
 /* ============ Brand switcher (review only) ============ */
