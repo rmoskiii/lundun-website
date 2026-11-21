@@ -11,8 +11,8 @@ export function CitySection() {
                 <img
                     src="/lundun-map.png"
                     alt="The in-game map of Lundun, with its districts either side of the river"
-                    width={470}
-                    height={556}
+                    width={450}
+                    height={538}
                     loading="lazy"
                 />
                 <figcaption>In-game map · Lundun</figcaption>
